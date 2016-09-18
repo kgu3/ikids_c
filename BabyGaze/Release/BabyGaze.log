@@ -1,0 +1,266 @@
+﻿Build started 2016/9/6 上午 8:42:12.
+     1>Project "C:\Users\kevin\Documents\Visual Studio 2012\Projects\BabyGaze\BabyGaze\BabyGaze.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\kevin\Documents\Visual Studio 2012\Projects\BabyGaze\config4cpp\include" /IF:\opencv\build\/include /nologo /W3 /WX- /Ox /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BabyGaze_main.cpp babyPara.cpp bwareaopen_3rdParty.cpp bwconncomp_3rdParty.cpp checkMatType.cpp estGaze.cpp estInPlaneRot.cpp find8Points.cpp genTarTemplate.cpp getEyeRegion.cpp getSkinAvg.cpp irisSegmentation.cpp myEllipseAngleEst.cpp removeReflection.cpp SetBabyParameter.cpp test.cpp tracking.cpp
+         BabyGaze_main.cpp
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(29): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(45): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(46): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(50): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(51): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(63): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(64): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(76): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(99): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(100): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(101): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\programPara.h(109): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(99): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(100): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(125): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(126): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(128): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(132): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(132): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(135): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(136): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(143): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(144): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(146): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(146): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(150): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(153): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(154): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(177): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(178): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(180): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(180): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(184): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(184): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(187): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(188): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(196): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(198): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(202): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(202): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(205): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(206): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>BabyGaze_main.cpp(97): warning C4018: '<' : signed/unsigned mismatch
+     1>BabyGaze_main.cpp(99): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>BabyGaze_main.cpp(122): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>BabyGaze_main.cpp(144): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         babyPara.cpp
+         bwareaopen_3rdParty.cpp
+     1>bwareaopen_3rdParty.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>bwareaopen_3rdParty.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+     1>bwareaopen_3rdParty.cpp(25): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>bwareaopen_3rdParty.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+     1>bwareaopen_3rdParty.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+     1>bwareaopen_3rdParty.cpp(53): warning C4018: '<' : signed/unsigned mismatch
+     1>bwareaopen_3rdParty.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+     1>bwareaopen_3rdParty.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+         bwconncomp_3rdParty.cpp
+         checkMatType.cpp
+         estGaze.cpp
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(99): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(100): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(125): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(126): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(128): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(132): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(132): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(135): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(136): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(143): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(144): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(146): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(146): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(150): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(153): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(154): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(177): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(178): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(180): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(180): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(184): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(184): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(187): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(188): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(196): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(198): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(202): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(202): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(205): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(206): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>estGaze.cpp(91): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>estGaze.cpp(92): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>estGaze.cpp(93): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>estGaze.cpp(117): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>estGaze.cpp(125): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>estGaze.cpp(146): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>estGaze.cpp(147): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>estGaze.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>estGaze.cpp(172): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>estGaze.cpp(180): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         estInPlaneRot.cpp
+         find8Points.cpp
+     1>find8Points.cpp(24): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>find8Points.cpp(25): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(54): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(56): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(57): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(58): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(59): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(60): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(61): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(76): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(77): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(78): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(79): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>find8Points.cpp(116): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         genTarTemplate.cpp
+     1>genTarTemplate.cpp(12): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>genTarTemplate.cpp(13): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>genTarTemplate.cpp(42): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>genTarTemplate.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>genTarTemplate.cpp(44): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         getEyeRegion.cpp
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(99): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(100): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(125): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(126): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(128): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(132): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(132): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(135): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(136): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(143): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(144): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(146): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(146): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(150): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(153): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(154): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(177): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(178): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(180): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(180): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(184): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(184): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(187): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(188): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(196): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(198): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(202): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(202): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(205): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(206): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>getEyeRegion.cpp(31): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>getEyeRegion.cpp(32): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>getEyeRegion.cpp(62): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>getEyeRegion.cpp(63): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         getSkinAvg.cpp
+         irisSegmentation.cpp
+         myEllipseAngleEst.cpp
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\decomposition.h(120): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\decomposition.h(482): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\decomposition.h(520): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>myEllipseAngleEst.cpp(12): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         removeReflection.cpp
+     1>removeReflection.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>removeReflection.cpp(32): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>removeReflection.cpp(50): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>removeReflection.cpp(62): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>removeReflection.cpp(75): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>removeReflection.cpp(82): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         SetBabyParameter.cpp
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(99): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(100): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(125): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(126): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(128): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(132): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(132): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(135): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(136): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(143): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(144): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(146): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(146): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(150): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(153): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(154): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(177): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(178): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(180): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(180): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(184): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(184): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(187): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(188): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(196): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(198): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(202): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(202): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(205): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\kevin\documents\visual studio 2012\projects\babygaze\babygaze\babyPara.h(206): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>SetBabyParameter.cpp(17): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>SetBabyParameter.cpp(18): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>SetBabyParameter.cpp(44): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>SetBabyParameter.cpp(61): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         test.cpp
+         tracking.cpp
+     1>tracking.cpp(19): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>tracking.cpp(20): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>tracking.cpp(25): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>tracking.cpp(26): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>tracking.cpp(38): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>tracking.cpp(39): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>tracking.cpp(40): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>tracking.cpp(41): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>tracking.cpp(70): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>tracking.cpp(137): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kevin\Documents\Visual Studio 2012\Projects\BabyGaze\Release\BabyGaze.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\kevin\Documents\Visual Studio 2012\Projects\BabyGaze\config4cpp\lib" /LIBPATH:F:\opencv\build\x86\vc11\lib config4cpp.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_nonfree249.lib opencv_objdetect249.lib opencv_ocl249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_ts249.lib opencv_video249.lib opencv_videostab249.lib Vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kevin\Documents\Visual Studio 2012\Projects\BabyGaze\Release\BabyGaze.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kevin\Documents\Visual Studio 2012\Projects\BabyGaze\Release\BabyGaze.lib" /MACHINE:X86 /SAFESEH Release\BabyGaze_main.obj
+         Release\babyPara.obj
+         Release\bwareaopen_3rdParty.obj
+         Release\bwconncomp_3rdParty.obj
+         Release\checkMatType.obj
+         Release\estGaze.obj
+         Release\estInPlaneRot.obj
+         Release\find8Points.obj
+         Release\genTarTemplate.obj
+         Release\getEyeRegion.obj
+         Release\getSkinAvg.obj
+         Release\irisSegmentation.obj
+         Release\myEllipseAngleEst.obj
+         Release\removeReflection.obj
+         Release\SetBabyParameter.obj
+         Release\test.obj
+         Release\tracking.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         BabyGaze.vcxproj -> C:\Users\kevin\Documents\Visual Studio 2012\Projects\BabyGaze\Release\BabyGaze.exe
+     1>Done Building Project "C:\Users\kevin\Documents\Visual Studio 2012\Projects\BabyGaze\BabyGaze\BabyGaze.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.24
